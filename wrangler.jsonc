@@ -1,7 +1,15 @@
 {
-  "name": "personalprotfolio",
-  "compatibility_date": "2025-12-11",
-  "assets": {
-    "directory": "./public",
-  }
+ "name": "example-spa-worker-hyperdrive",
+ "main": "api/index.js",
+ "compatibility_flags": ["nodejs_compat"],
+ "compatibility_date": "2025-04-01",
+
+ "assets": {
+   "directory": "./public",
+   "binding": "ASSETS",
+   "not_found_handling": "single-page-application"
+ },
+ "placement": {
+   "mode": "smart"
+ }
 }
